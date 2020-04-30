@@ -7,3 +7,6 @@ spring:
 #    ?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false
   jpa:
     show-sql: true
+server:
+  servlet:
+    context-path: /sell
